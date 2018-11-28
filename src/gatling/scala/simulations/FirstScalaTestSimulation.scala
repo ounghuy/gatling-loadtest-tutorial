@@ -27,8 +27,7 @@ object RandomLoader {
 
   val header_0 = Map("Accept" -> "application/json", "Accept-Language" -> "en-US")
   val load = randomSwitch(
-  100.00 -> Users.getUsersFromFeed,
-
+  100.00 -> Users.getUsersFromFeed
 
   )
 
