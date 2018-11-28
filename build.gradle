@@ -1,0 +1,13 @@
+plugins {
+  id "com.github.lkishalmi.gatling" version "0.7.4"
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+gatling {
+    toolVersion = '3.0.1'
+    jvmArgs = [ '-server', '-Xms512M', '-Xmx512M']
+}
